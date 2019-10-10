@@ -72,8 +72,9 @@ button {cursor: pointer;}
 select, input, textarea, button {
     vertical-align: middle;
 }
-input[type="radio"] {margin-bottom: 0.31em;}
-input[type="checkbox"] {vertical-align: baseline;}
+input[type="radio"], input[type="checkbox"] {
+    margin-bottom: 0.31em;
+}
 
 /* Remove native styling on certain form elements */
 input[type="submit"], button {
